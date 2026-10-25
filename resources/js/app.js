@@ -1,3 +1,6 @@
+import './bootstrap';
+import '../css/app.css';
+
 // ==========================================
 // INITIAL DATABASE / LOCALSTORAGE STRUCTURE
 // ==========================================

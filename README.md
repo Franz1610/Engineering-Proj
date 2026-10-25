@@ -21,6 +21,28 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Running the application
+
+Install the frontend dependencies once from the repository root:
+
+```bash
+npm install
+```
+
+Start Laravel and Vite in separate terminals:
+
+```bash
+php artisan serve
+```
+
+```bash
+npm run dev
+```
+
+The application is available at `http://127.0.0.1:8000`. The procurement
+frontend is loaded from `resources/js/app.js` and `resources/css/app.css` at the
+repository root.
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
